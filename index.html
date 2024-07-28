@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cynthiagwu</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="loco.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div id="minicircle"></div>
     <div id="main">
 
         <div id="section-1">
@@ -18,23 +20,40 @@
                 <a href="">
                     <h1>Cynthia Ugwu</h1>
                 </a>
-                <a href="">
+                <a href="#" id="menunav">
                     <h3>Menu+</h3>
                 </a>
 
+                <ul id="nav-ul">
+                    <li>The plug</li>
+                    <li>ixperience</li>
+                    <li>hudu</li>
+                    <li>playground</li>
+                    <li>contact</li>
+                </ul>
+
             </div>
             <div id="home-content">
-
-                <h1 class="elem">Product</h1>
+                <div class="bounding">
+                    <h1 class="boundingelem">Product</h1>
+                </div>
                 <div class="block-text">
-                    <h1 class="elem second-head">Designer</h1>
-                    <h5 class="elem">Based in Toronto</h4>
+                    <div class="bounding">
+                        <h1 class="boundingelem second-head">Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem">Based in Toronto</h4>
+                    </div>
                 </div>
             </div>
 
             <div class="freelance">
-                <h4>Available for freelance</h4>
-                <h4>Work from may 24'</h4>
+                <div class="bounding">
+                    <h4 class="boundingelem">Available for freelance</h4>
+                </div>
+                <div class="bounding">
+                    <h4 class="boundingelem">Work from may 24'</h4>
+                </div>
             </div>
 
             <div id="section-1-footer">
@@ -57,29 +76,61 @@
 
         <div id="section-2">
             <div class="proj">
+                <img src="plug.png" alt="">
                 <h1>the plug</h1>
                 <h5>2022</h5>
             </div>
             <div class="proj">
+                <img src="ixperience.png" alt="">
                 <h1>ixperience</h1>
                 <h5>2022</h5>
             </div>
             <div class="proj" id="last-head">
+                <img src="hudu.png" alt="">
                 <h1>hudu</h1>
                 <h5>2022</h5>
             </div>
         </div>
 
         <div id="section-3-about">
-            <div class="left-about"><img src="download.jpeg" alt=""></div>
-            <div class="right-about">
-                <h3>(About me)</h3>
-                <p>I'm a product designer with a passion for creating products that not only look good but also solve real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix series or playing video games. My design philosophy is simple: make it visually appealing, functional, and bring a smile to people's faces. I'm the designer you want on your team if you want to make people say 'I need that in my life!'.</p>
-                <button>Let's Talk</button>
+            <div class="content-about">
+                <div class="left-about"><img src="download.jpeg" alt=""></div>
+                <div class="right-about">
+                    <h5>(About me)</h5>
+                    <p>I'm a product designer with a passion for creating products that not only look good but also
+                        solve
+                        real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix
+                        series or playing video games. My design philosophy is simple: make it visually appealing,
+                        functional, and bring a smile to people's faces. I'm the designer you want on your team if you
+                        want
+                        to make people say 'I need that in my life!'.</p>
+                    <button>Let's Talk</button>
+                </div>
             </div>
         </div>
-    </div>
 
+        <div id="section-4">
+            <h4>(forgot To Mention)</h4>
+            <h4>SUBSCRIBE TO MY YOUTUBE CHANNEL<i class="ri-arrow-right-up-line"></i></h4>
+        </div>
+
+        <footer id="footer">
+            <div id="left-footer">
+                <h4>2024&copy;</h4>
+                <h4>10:35 PM IST</h4>
+            </div>
+            <div id="right-footer">
+                <a href="">Dribble</a>
+                <a href="">Instagram</a>
+                <a href="">LinkedIn</a>
+                <a href="">Twitter</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
 </body>
 
